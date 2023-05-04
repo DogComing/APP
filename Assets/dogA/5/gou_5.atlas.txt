@@ -1,0 +1,160 @@
+
+gou_5.png
+size: 998,774
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjb1
+  rotate: true
+  xy: 76, 17
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb2
+  rotate: false
+  xy: 707, 625
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb3
+  rotate: false
+  xy: 707, 476
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb4
+  rotate: false
+  xy: 707, 327
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+di
+  rotate: true
+  xy: 2, 308
+  size: 464, 87
+  orig: 466, 89
+  offset: 1, 1
+  index: -1
+hht1
+  rotate: false
+  xy: 476, 25
+  size: 113, 145
+  orig: 115, 147
+  offset: 1, 1
+  index: -1
+hht2
+  rotate: true
+  xy: 760, 175
+  size: 97, 46
+  orig: 99, 48
+  offset: 1, 1
+  index: -1
+hht3
+  rotate: false
+  xy: 225, 176
+  size: 119, 136
+  orig: 121, 138
+  offset: 1, 1
+  index: -1
+ht1
+  rotate: false
+  xy: 728, 2
+  size: 130, 169
+  orig: 132, 171
+  offset: 1, 1
+  index: -1
+ht2
+  rotate: true
+  xy: 703, 173
+  size: 99, 55
+  orig: 101, 57
+  offset: 1, 1
+  index: -1
+ht3
+  rotate: false
+  xy: 225, 9
+  size: 115, 161
+  orig: 117, 163
+  offset: 1, 1
+  index: -1
+qht1
+  rotate: false
+  xy: 860, 157
+  size: 135, 115
+  orig: 135, 115
+  offset: 0, 0
+  index: -1
+qht2
+  rotate: false
+  xy: 346, 168
+  size: 118, 144
+  orig: 120, 146
+  offset: 1, 1
+  index: -1
+qt1
+  rotate: true
+  xy: 591, 27
+  size: 143, 135
+  orig: 143, 135
+  offset: 0, 0
+  index: -1
+qt2
+  rotate: false
+  xy: 342, 11
+  size: 132, 155
+  orig: 134, 157
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 91, 371
+  size: 401, 269
+  orig: 401, 269
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 362, 381
+  size: 343, 391
+  orig: 345, 393
+  offset: 1, 1
+  index: -1
+tx_js1
+  rotate: false
+  xy: 860, 131
+  size: 102, 24
+  orig: 391, 81
+  offset: 282, 6
+  index: -1
+tx_js2
+  rotate: true
+  xy: 2, 13
+  size: 293, 72
+  orig: 391, 81
+  offset: 91, 5
+  index: -1
+tx_js3
+  rotate: false
+  xy: 91, 314
+  size: 376, 55
+  orig: 391, 81
+  offset: 8, 6
+  index: -1
+tx_js4
+  rotate: false
+  xy: 703, 274
+  size: 284, 51
+  orig: 391, 81
+  offset: 102, 6
+  index: -1
+weiba1
+  rotate: false
+  xy: 469, 172
+  size: 232, 207
+  orig: 232, 207
+  offset: 0, 0
+  index: -1

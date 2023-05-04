@@ -24,7 +24,7 @@ public class BiSaiManager : MonoBehaviour
 #if UNITY_IPHONE
             AssetBundle asset = AssetBundle.LoadFromFile(Path.Combine(Application.persistentDataPath + "/iosmd5", _name));
 #endif
-            
+
             if (asset != null)
             {
                 GameObject data = asset.LoadAsset<GameObject>(_name);
@@ -73,7 +73,7 @@ public class BiSaiManager : MonoBehaviour
     }
 
     #region 赛前准备
-    void Init()
+    public void Init()
     {
         //摄像机归位
         _MainCamera.position = Vector3.zero;
@@ -103,7 +103,7 @@ public class BiSaiManager : MonoBehaviour
             if (_dogI == null)
             {
                 _dogI = CreateDog("anidog_1");
-                CUIMainManager._MainManager().cUITips.Tips(CUIMainManager._MainManager().allUseDog[i].animationName+"没有\n请截图");
+                CUIMainManager._MainManager().cUITips.Tips(CUIMainManager._MainManager().allUseDog[i].animationName + "没有\n请截图");
             }
             GameObject obj = Instantiate(_dogI, dogPrant);
             //GameObject obj = null;
@@ -145,7 +145,7 @@ public class BiSaiManager : MonoBehaviour
     #endregion
 
     #region 开始比赛
- 
+
     //比赛开始
     public void Run()
     {
@@ -204,7 +204,7 @@ public class BiSaiManager : MonoBehaviour
         if (gameType != 1) return;
         if (allDog.Count != 6) return;
         Vector3 targetPos = new Vector3(allDog[cur_Key].transform.position.x + 6, _MainCamera.position.y, _MainCamera.position.z);
-        _MainCamera.position = Vector3.Slerp(_MainCamera.position, targetPos, speed*Time.deltaTime);
+        _MainCamera.position = Vector3.Slerp(_MainCamera.position, targetPos, speed * Time.deltaTime);
         if (_MainCamera.position.x >= 27 && _MainCamera.position.x <= 359)//326
         {
             bjMove = true;

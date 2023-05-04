@@ -130,7 +130,7 @@ public class CDengLu : MonoBehaviour
         }
         else
         {
-            if (id.text!="")
+            if (id.text != "")
             {
                 CUIMainManager._MainManager().NetSendLogin(id.text);
                 return;
@@ -173,7 +173,7 @@ public class CDengLu : MonoBehaviour
         //}
         //else
             CUIMainManager._MainManager().NetSpeedSendLogin();
-        
+
         isLogin = true;
     }
 }

@@ -8,9 +8,8 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 public class HttpManager
 {
-    //string httpAddress = "http://192.168.0.101:1100/api/";
-    string httpAddress = "https://1100.pamperdog.club/api/";
-    //string httpAddress = "https://2200.pamperdog.club/api/";
+    //string httpAddress = "http://192.168.0.106:1100/api/";
+    string httpAddress = "https://2200.pamperdog.club/api/";
     private static HttpManager httpManager = null;
     public static HttpManager GetHttpManager()
     {
@@ -1028,16 +1027,18 @@ public class HttpManager
             }
         }
         //排队刷新
-        if (data.type == 4 && CUIMainManager._MainManager().myBiSaiData.etcNum != data.etcNum)
+        if (data.type == 4)
         {
-            //刷新显示
-            if (CUIMainManager._MainManager().biSai.pipei.activeSelf) { CUIMainManager._MainManager().biSai.pipei.SetActive(false); }
-            if (!CUIMainManager._MainManager().biSai.paidui.activeSelf) { CUIMainManager._MainManager().biSai.paidui.SetActive(true); }
-            CUIMainManager._MainManager().biSai.SetChang(data.etcNum);
+            if (CUIMainManager._MainManager().myBiSaiData.etcNum != data.etcNum)
+            {
+                //刷新显示
+                if (CUIMainManager._MainManager().biSai.pipei.activeSelf) { CUIMainManager._MainManager().biSai.pipei.SetActive(false); }
+                if (!CUIMainManager._MainManager().biSai.paidui.activeSelf) { CUIMainManager._MainManager().biSai.paidui.SetActive(true); }
+                CUIMainManager._MainManager().biSai.SetChang(data.etcNum);
+            }
         }
         CUIMainManager._MainManager().myBiSaiData = data;
     }
-
     void 世界比赛状态变化刷新(JsonData allcur_data)
     {
         BiSaiData data = JsonMapper.ToObject<BiSaiData>(allcur_data["data"]["worldMap"].ToJson());
@@ -1062,6 +1063,7 @@ public class HttpManager
                     if (!CUIMainManager._MainManager().biSaiKaiShi.bar.activeSelf) break;
                     //关闭比赛开始界面
                     CUIMainManager._MainManager().biSaiKaiShi.OorDBar(false);
+                    CUIMainManager._MainManager().biSaiManager.Init();
                     CUIMainManager._MainManager().HuanBGMusic("mainbj");
                     break;
                 case 2:
@@ -1074,6 +1076,7 @@ public class HttpManager
                     {
                         CUIMainManager._MainManager().关闭所有界面();
                         CUIMainManager._MainManager().biSaiKaiShi.OorDBar(false);  //关闭 比赛开始界面
+                        CUIMainManager._MainManager().biSaiManager.Init();
                         CUIMainManager._MainManager().yaZhu.OorDBar(true);         //打开 押注界面     
                         CUIMainManager._MainManager().HuanBGMusic("zbbj");
                     }

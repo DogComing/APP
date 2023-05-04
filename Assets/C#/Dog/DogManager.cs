@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Spine.Unity;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class DogManager : MonoBehaviour
     public int mingci = -1;
     public ZhanDouChongWuData data;
     Animator ani;
+    SkeletonRenderer skeletonRenderer;
     Vector3 dir = Vector3.right;
     float endPos;
     float cur_speed;
@@ -19,6 +21,7 @@ public class DogManager : MonoBehaviour
     public float curtime;
 
     public Vector3 chushi;
+    MeshRenderer meshRenderer;
     // Update is called once per frame
     void Update()
     {
@@ -60,6 +63,7 @@ public class DogManager : MonoBehaviour
     #region 初始化
     public void Int(int _key, ZhanDouChongWuData _data, float _endPos)
     {
+        skeletonRenderer = transform.GetComponent<SkeletonRenderer>();
         ani = transform.GetComponent<Animator>();
         key = _key;
         data = _data;
@@ -69,6 +73,8 @@ public class DogManager : MonoBehaviour
     }
     public void Set()
     {
+        meshRenderer = skeletonRenderer.GetComponent<MeshRenderer>();
+        
         冲刺间隔 = Random.Range(2, 4) + Random.Range(0.0f, 2.0f);
         jici = Random.Range(0, 2);
         冲刺时间 = 1 / data.ranking + Random.Range(0.5f, 1.5f);
@@ -90,6 +96,7 @@ public class DogManager : MonoBehaviour
     public void AniSwitch(int type)
     {
         ani.SetInteger("type", type);
+       
     }
     #endregion
 

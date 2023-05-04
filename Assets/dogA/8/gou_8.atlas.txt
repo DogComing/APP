@@ -1,0 +1,174 @@
+
+gou_8.png
+size: 991,851
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjb1
+  rotate: true
+  xy: 399, 560
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb2
+  rotate: true
+  xy: 382, 96
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb3
+  rotate: true
+  xy: 548, 560
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb4
+  rotate: false
+  xy: 697, 702
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+di
+  rotate: true
+  xy: 2, 385
+  size: 464, 87
+  orig: 466, 89
+  offset: 1, 1
+  index: -1
+houtui1
+  rotate: false
+  xy: 676, 393
+  size: 116, 165
+  orig: 118, 167
+  offset: 1, 1
+  index: -1
+houtui2
+  rotate: true
+  xy: 449, 16
+  size: 78, 63
+  orig: 80, 65
+  offset: 1, 1
+  index: -1
+houtui3
+  rotate: true
+  xy: 572, 10
+  size: 117, 176
+  orig: 119, 178
+  offset: 1, 1
+  index: -1
+ht1
+  rotate: false
+  xy: 683, 243
+  size: 105, 148
+  orig: 107, 150
+  offset: 1, 1
+  index: -1
+ht2
+  rotate: true
+  xy: 514, 21
+  size: 73, 56
+  orig: 75, 58
+  offset: 1, 1
+  index: -1
+ht3
+  rotate: true
+  xy: 683, 137
+  size: 104, 155
+  orig: 106, 161
+  offset: 1, 5
+  index: -1
+qht1
+  rotate: true
+  xy: 697, 564
+  size: 136, 227
+  orig: 138, 229
+  offset: 1, 1
+  index: -1
+qht2
+  rotate: true
+  xy: 325, 387
+  size: 167, 159
+  orig: 167, 159
+  offset: 0, 0
+  index: -1
+qiantui1
+  rotate: false
+  xy: 531, 129
+  size: 150, 256
+  orig: 152, 258
+  offset: 1, 1
+  index: -1
+qiantui2
+  rotate: true
+  xy: 486, 387
+  size: 171, 188
+  orig: 171, 188
+  offset: 0, 0
+  index: -1
+qq1
+  rotate: false
+  xy: 750, 6
+  size: 155, 129
+  orig: 157, 131
+  offset: 1, 1
+  index: -1
+qq2
+  rotate: false
+  xy: 790, 249
+  size: 155, 129
+  orig: 157, 131
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 91, 404
+  size: 445, 232
+  orig: 445, 232
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 59, 55
+  size: 328, 321
+  orig: 330, 323
+  offset: 1, 1
+  index: -1
+tx_js1
+  rotate: false
+  xy: 345, 29
+  size: 102, 24
+  orig: 391, 81
+  offset: 282, 6
+  index: -1
+tx_js2
+  rotate: true
+  xy: 325, 556
+  size: 293, 72
+  orig: 391, 81
+  offset: 91, 5
+  index: -1
+tx_js3
+  rotate: true
+  xy: 2, 7
+  size: 376, 55
+  orig: 391, 81
+  offset: 8, 6
+  index: -1
+tx_js4
+  rotate: false
+  xy: 59, 2
+  size: 284, 51
+  orig: 391, 81
+  offset: 102, 6
+  index: -1
+weiba
+  rotate: true
+  xy: 794, 380
+  size: 182, 195
+  orig: 182, 195
+  offset: 0, 0
+  index: -1

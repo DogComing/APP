@@ -1,0 +1,167 @@
+
+gou_4.png
+size: 922,649
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjb1
+  rotate: false
+  xy: 336, 411
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb2
+  rotate: false
+  xy: 2, 67
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb3
+  rotate: false
+  xy: 627, 411
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+cjb4
+  rotate: false
+  xy: 631, 262
+  size: 289, 147
+  orig: 289, 147
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 336, 560
+  size: 464, 87
+  orig: 466, 89
+  offset: 1, 1
+  index: -1
+er1
+  rotate: true
+  xy: 270, 217
+  size: 65, 167
+  orig: 65, 167
+  offset: 0, 0
+  index: -1
+er2
+  rotate: false
+  xy: 860, 144
+  size: 52, 116
+  orig: 52, 116
+  offset: 0, 0
+  index: -1
+ht1
+  rotate: false
+  xy: 757, 141
+  size: 101, 119
+  orig: 103, 121
+  offset: 1, 1
+  index: -1
+ht2
+  rotate: true
+  xy: 293, 98
+  size: 117, 161
+  orig: 117, 161
+  offset: 0, 0
+  index: -1
+ht3
+  rotate: true
+  xy: 802, 566
+  size: 81, 96
+  orig: 83, 98
+  offset: 1, 1
+  index: -1
+ht4
+  rotate: false
+  xy: 674, 120
+  size: 81, 140
+  orig: 81, 140
+  offset: 0, 0
+  index: -1
+qt1
+  rotate: false
+  xy: 558, 109
+  size: 114, 151
+  orig: 116, 153
+  offset: 1, 1
+  index: -1
+qt2
+  rotate: false
+  xy: 552, 7
+  size: 80, 97
+  orig: 82, 99
+  offset: 1, 1
+  index: -1
+qt3
+  rotate: true
+  xy: 380, 2
+  size: 94, 144
+  orig: 96, 147
+  offset: 1, 1
+  index: -1
+qt4
+  rotate: false
+  xy: 456, 106
+  size: 100, 176
+  orig: 100, 176
+  offset: 0, 0
+  index: -1
+qt5
+  rotate: false
+  xy: 757, 32
+  size: 110, 107
+  orig: 113, 109
+  offset: 2, 1
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 401
+  size: 332, 246
+  orig: 332, 246
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 216
+  size: 266, 183
+  orig: 268, 185
+  offset: 1, 1
+  index: -1
+tx_js1
+  rotate: true
+  xy: 526, 2
+  size: 102, 24
+  orig: 391, 81
+  offset: 282, 6
+  index: -1
+tx_js2
+  rotate: false
+  xy: 336, 337
+  size: 293, 72
+  orig: 391, 81
+  offset: 91, 5
+  index: -1
+tx_js3
+  rotate: false
+  xy: 2, 10
+  size: 376, 55
+  orig: 391, 81
+  offset: 8, 6
+  index: -1
+tx_js4
+  rotate: false
+  xy: 270, 284
+  size: 284, 51
+  orig: 391, 81
+  offset: 102, 6
+  index: -1
+weiba
+  rotate: true
+  xy: 634, 30
+  size: 77, 67
+  orig: 77, 67
+  offset: 0, 0
+  index: -1

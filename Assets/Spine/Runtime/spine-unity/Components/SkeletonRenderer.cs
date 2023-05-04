@@ -471,18 +471,17 @@ namespace Spine.Unity {
 			rendererBuffers.UpdateSharedMaterials(workingSubmeshInstructions);
 
 			bool materialsChanged = rendererBuffers.MaterialsChangedInLastUpdate();
-            //内部暗改 修复材质丢失 1帧不行多了点
-            if (ymyNum < 10)
-            {
-                meshRenderer.material.shader = Shader.Find(meshRenderer.material.shader.name);
-                ymyNum ++;
-            }
+            
             if (updateTriangles) { // Check if the triangles should also be updated.
 				meshGenerator.FillTriangles(currentMesh);
 				meshRenderer.sharedMaterials = rendererBuffers.GetUpdatedSharedMaterialsArray();
-			} else if (materialsChanged) {
+                //内部暗改 修复材质丢失 
+                meshRenderer.material.shader = Shader.Find(meshRenderer.material.shader.name);
+            } else if (materialsChanged) {
 				meshRenderer.sharedMaterials = rendererBuffers.GetUpdatedSharedMaterialsArray();
-			}
+                //内部暗改 修复材质丢失 
+                meshRenderer.material.shader = Shader.Find(meshRenderer.material.shader.name);
+            }
 			if (materialsChanged && (this.maskMaterials.AnyMaterialCreated)) {
 				this.maskMaterials = new SpriteMaskInteractionMaterials();
 			}
